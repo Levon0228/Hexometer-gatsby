@@ -9,7 +9,7 @@ const Ratings = () => {
   return (
     <Row>
       {ratingSrc.map(current => (
-        <Col md={6} sm={6} xs={12} className="rating-block">
+        <Col md={6} sm={12} className="rating-block">
           <div className="out" key={current.id}>
             <img className="rating-logo" alt={" logo"} src={current.src} />
             <span className="ratting-val">{current.rate}</span>

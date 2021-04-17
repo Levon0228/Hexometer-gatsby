@@ -36,7 +36,7 @@
   cursor: pointer;
 }
 
-.getStared:hover {
+.get-stared:hover {
   color: #16ac59 !important;
   background: #fff;
 }
@@ -46,6 +46,10 @@
   outline: 0;
   color: #323537;
   color: inherit !important;
+}
+
+.navbar-collapse {
+  background: #fff;
 }
 
 .navItem a {

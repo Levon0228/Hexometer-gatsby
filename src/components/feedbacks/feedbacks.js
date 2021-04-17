@@ -7,10 +7,10 @@ import "./feedbacks.css"
 const Feedbacks = () => (
   <Container>
     <Row>
-      <Col>
+      <Col md={6} sm={12}>
         <Ratings />
       </Col>
-      <Col>
+      <Col md={6} sm={12}>
         <FeedbacksSlider />
       </Col>
     </Row>

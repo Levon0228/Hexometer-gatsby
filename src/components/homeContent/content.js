@@ -26,7 +26,7 @@ const Content = () => (
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col md={6} sm={12}>
         <div className="prototype_content_home">
           <h2>
             Meet Hexometer, your AI sidekick that works
@@ -55,7 +55,7 @@ const Content = () => (
           <button className="getStared">Get started with our free plan</button>
         </div>
       </Col>
-      <Col>
+      <Col md={6} sm={12}>
         <img src={diagramSrc} alt="Main Giagram" />
       </Col>
     </Row>
