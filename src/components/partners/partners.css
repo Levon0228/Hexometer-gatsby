@@ -1,0 +1,29 @@
+img {
+  display: block;
+  margin: auto;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.part-header {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.slick-next:before {
+  content: ">";
+}
+.slick-prev:before {
+  content: "<";
+}
+.slick-prev:before,
+.slick-next:before {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 700;
+  color: #16ac59;
+}

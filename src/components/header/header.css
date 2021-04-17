@@ -1,0 +1,80 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.navHeader {
+  height: 94px;
+}
+
+.fixedHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.06);
+  background-image: none;
+}
+
+.get-stared {
+  font: 800 14px Poppins, sans-serif;
+  margin-right: 20px;
+  padding: 8px 15px !important;
+  text-align: center;
+
+  color: #fff !important;
+  background: #16ac59;
+  box-shadow: 0 20px 30px 0 rgba(12, 0, 46, 0.1);
+  display: inline-block;
+  padding: 14px 42px;
+  border-radius: 45px;
+  border: 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.getStared:hover {
+  color: #16ac59 !important;
+  background: #fff;
+}
+
+.loginBtn {
+  text-decoration: none;
+  outline: 0;
+  color: #323537;
+  color: inherit !important;
+}
+
+.navItem a {
+  font: 600 16px Poppins, sans-serif;
+  color: #323537 !important;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+  display: inline-block;
+}
+
+.navItem {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.navItem::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #16ac59;
+  transition: width 0.3s;
+}
+.navItem:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.navItem a:hover {
+  color: #16ac59 !important;
+}
