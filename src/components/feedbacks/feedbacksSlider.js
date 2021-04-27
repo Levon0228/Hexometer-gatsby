@@ -8,7 +8,7 @@ const FeedbackSlider = () => (
   <>
     <Carousel
       slides={feedbcksSrc.map(current => (
-        <img src={current.src} alt="Feedbacks" />
+        <img src={current.src} alt="Feedbacks" key={current.id} />
       ))}
       autoplay={true}
       interval={4000}

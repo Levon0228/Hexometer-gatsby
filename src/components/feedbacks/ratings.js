@@ -5,11 +5,10 @@ import ratingStarSrc from "../../images/ratingStar.svg"
 import "./feedbacks.css"
 
 const Ratings = () => {
-  console.log(ratingSrc)
   return (
     <Row>
       {ratingSrc.map(current => (
-        <Col md={6} sm={12} className="rating-block">
+        <Col md={6} sm={12} className="rating-block" key={current.id}>
           <div className="out" key={current.id}>
             <img className="rating-logo" alt={" logo"} src={current.src} />
             <span className="ratting-val">{current.rate}</span>
